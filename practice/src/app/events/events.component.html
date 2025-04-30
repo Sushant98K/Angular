@@ -1,0 +1,12 @@
+<p>events works!</p>
+
+<button (click)="handleEvent($event)" class="text-xs" name="login" type="button">Click Me</button>
+<div class="flex items-center justify-center">
+    <div (mouseenter)="handleEvent($event)" (mouseleave)="handleEvent($event)" class="bg-red-500 w-35 h-35 hover:bg-green-700"></div>
+</div>
+
+<br>
+<br>
+<div class="flex items-center justify-center">
+    <input (focus)="handleInputEvent($event)" (blur)="handleInputEvent($event)" (input)="handleInputEvent($event)" type="text" name="Demo" id="test" placeholder="Type here" class="border border-red-600 rounded-sm">
+</div>
