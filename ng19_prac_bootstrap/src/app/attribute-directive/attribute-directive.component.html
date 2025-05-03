@@ -1,0 +1,39 @@
+<div class="p-2">
+    <div class="row  text-center">
+        <div class="col-12 m-3">
+            <h1>Attribute Directive(ngClass)</h1>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-4">
+            <h2 [ngClass]="textColor">This is first example of ngClass</h2><br>
+            <button class="btn btn-success m-2" (click)="changeColor('text-success')">Change Color to Green</button>
+            <button class="btn btn-danger m-2" (click)="changeColor('text-danger')">Change Color to Red</button>
+        </div>
+        <div class="col-4">
+            <h2 [ngClass]="isTextGreen ? 'text-success': 'text-danger'">This is secound example of ngClass</h2><br>
+            <input type="checkbox" [(ngModel)]="isTextGreen"> Change Color
+            <button class="btn btn-dark" (click)="toggleColor()">Green <=> Red</button>
+        </div>
+        <div class="col-4">
+            <h2 [ngClass]="userClass">This is Third example of ngClass</h2>
+            <br>
+            <input class="rounded-2" type="text" [(ngModel)]="userClass" placeholder="bootstrap text-primary">
+        </div>
+    </div>
+    <hr>
+</div>
+<div class="p-2">
+    <div class="row  text-center">
+        <div class="col-12 m-3">
+            <h1>Attribute Directive(ngStyle)</h1>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-12">
+            <h1 [ngStyle]="{'color':styleColor}">This is the Example of ngStyle</h1><br>
+            <button class="btn btn-warning m-2" (click)="onChange('yellow')">change to yellow</button>
+            <button class="btn btn-primary" (click)="onChange('blue')">Change to Blue</button>
+        </div>
+    </div>
+</div>
