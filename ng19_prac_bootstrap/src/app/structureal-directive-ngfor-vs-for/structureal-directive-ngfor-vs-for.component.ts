@@ -17,6 +17,6 @@ export class StructurealDirectiveNgforVsForComponent {
   ]
 
   companies: string[] = [
-    // 'Atos', 'Capgemini', 'TCS', 'EY', 'Google'
+    'Atos', 'Capgemini', 'TCS', 'EY', 'Google'
   ]
 }

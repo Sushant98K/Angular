@@ -1,0 +1,37 @@
+<div class="p-2">
+  <div class="row text-center">
+    <div class="col-12 m-3">
+      <h2>Example of *ngSwitch vs &#64;switch()</h2>
+    </div>
+  </div>
+  <div class="row text-center">
+    <div class="col-12">
+      <button class="btn btn-primary m-2" (click)="setGrade('A')">A Grade</button>
+      <button class="btn btn-success m-2" (click)="setGrade('B')">B Grade</button>
+      <button class="btn btn-warning m-2" (click)="setGrade('C')">C Grade</button>
+    </div>
+    <!-- <div [ngSwitch]="msg">
+        <h3 *ngSwitchCase="'A'">Congratulation on your outstanding performace - First Class</h3>
+        <h3 *ngSwitchCase="'B'">Congratulation on your performace - Secound Class</h3>
+        <h3 *ngSwitchCase="'C'">Congratulation on your achivement - Third Class</h3>
+        <h3 *ngSwitchDefault>No result found</h3>
+    </div> -->
+    <h3>
+        @switch (msg) {
+            @case ('A') {
+            Congratulation on your outstanding performace - First Class
+            }
+            @case ('B') {      
+            Congratulation on your performace - Secound Class
+            }
+            @case ('C') {
+            Congratulation on your achivement - Third Class
+            }
+            @default {
+            Click Grade button to find result
+            }
+        }
+    </h3>
+  </div>
+  <hr />
+</div>
