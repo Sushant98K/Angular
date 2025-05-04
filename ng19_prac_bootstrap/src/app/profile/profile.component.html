@@ -1,0 +1,34 @@
+<!-- 1. Sharing Data -->
+
+<!-- <ul>
+        <li>Id: {{dummyData.id}}</li>
+        <li>Name: {{dummyData.name}}</li>
+        <li>User Name: {{dummyData.username}}</li>
+        <li>Email ADdress: {{dummyData.email}}</li>
+    </ul> -->
+
+<!-- 2. Sharing Bussiness Logic -->
+
+<!-- @if (isEligible) {
+        <h2 class="text-success">You Are Eligible For Premium Subscription</h2>
+    }@else {
+        <h2 class="text-danger">You are Not Eligible For Premium Subscription</h2>
+    } -->
+
+<!-- 3. Interaction With API -->
+
+<div class="p-5">
+  <div class="row">
+    @for (data of api_data; track $index) {
+    <div class="col-4 p-2">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">{{data.name}}</h5>
+                <h6 class="card-subtitle mb-2 text-muted">{{data.username}}</h6>
+                <p class="card-text">{{data.email}}</p>
+            </div>
+        </div>
+    </div>
+    }
+  </div>
+</div>
