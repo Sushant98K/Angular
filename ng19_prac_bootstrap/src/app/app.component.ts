@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { SignalsComponent } from './signals/signals.component';
 // import { StructuralDirectivesNgifVsIfComponent } from './structural-directives-ngif-vs-if/structural-directives-ngif-vs-if.component';
 // import { StructurealDirectiveNgforVsForComponent } from './structureal-directive-ngfor-vs-for/structureal-directive-ngfor-vs-for.component';
@@ -10,11 +10,13 @@ import { SignalsComponent } from './signals/signals.component';
   selector: 'app-root',
   imports: [
     RouterOutlet,
+    RouterLink,
+    RouterLinkActive,
     // StructuralDirectivesNgifVsIfComponent,
     // StructurealDirectiveNgforVsForComponent,
     // StructuralDirectiveNgswitchVsSwitchComponent,
     // AttributeDirectiveComponent,
-    SignalsComponent,
+    // SignalsComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
