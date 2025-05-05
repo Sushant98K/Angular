@@ -1,0 +1,64 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "name": "Shivam",
+      "username": "shivam",
+      "email": "shivam@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Sushant",
+      "username": "sushantk",
+      "email": "sushant.kate@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "Aniket",
+      "username": "aniket123",
+      "email": "aniket@example.com"
+    },
+    {
+      "id": 4,
+      "name": "Priya",
+      "username": "priya_p",
+      "email": "priya.pandit@example.com"
+    },
+    {
+      "id": 5,
+      "name": "Rohit",
+      "username": "rohit89",
+      "email": "rohit89@example.com"
+    },
+    {
+      "id": 6,
+      "name": "Neha",
+      "username": "neha_d",
+      "email": "neha.d@example.com"
+    },
+    {
+      "id": 7,
+      "name": "Amit",
+      "username": "amitv",
+      "email": "amit.v@example.com"
+    },
+    {
+      "id": 8,
+      "name": "Kiran",
+      "username": "kiran_m",
+      "email": "kiran.m@example.com"
+    },
+    {
+      "id": 9,
+      "name": "Deepak",
+      "username": "deepak_s",
+      "email": "deepak.s@example.com"
+    },
+    {
+      "id": 10,
+      "name": "Sneha",
+      "username": "sneha.k",
+      "email": "sneha.k@example.com"
+    }
+  ]
+}
