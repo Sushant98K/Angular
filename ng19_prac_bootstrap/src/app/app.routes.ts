@@ -7,6 +7,7 @@ import { StructuralDirectiveNgswitchVsSwitchComponent } from './structural-direc
 import { AttributeDirectiveComponent } from './attribute-directive/attribute-directive.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ProfileComponent } from './profile/profile.component';
+import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
 
 export const routes: Routes = [
     // {path: '', component: any error page},
@@ -18,5 +19,6 @@ export const routes: Routes = [
     { path: 'ngswitch', component: StructuralDirectiveNgswitchVsSwitchComponent },
     { path: 'atribute', component: AttributeDirectiveComponent },
     {path: 'profile', component: ProfileComponent},
+    { path: 'tdf', component: TemplateDrivenFormComponent},
     { path: '**', component: PageNotFoundComponent}  //Wildcard routes must be last object
 ];
